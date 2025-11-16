@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Avabodh Foundation</title>
+  <meta name="description" content="Avabodh Foundation: street education, school admissions, Mind Map Café and documentaries that tell real stories." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="top" role="banner">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">A</div>
+        <div>
+          <div style="font-weight:700">Avabodh Foundation</div>
+          <div style="font-size:12px;color:var(--muted)">Educating · Empowering · Including</div>
+        </div>
+      </div>
+
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Our Work</a>
+        <a href="#documentaries">Documentaries</a>
+        <a href="#contact">Contact</a>
+        <a class="cta-donate" href="#donate">Donate</a>
+      </nav>
+
+      <div class="hamb" id="hamb">☰</div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero" aria-label="Intro">
+      <div class="hero-inner wrap">
+        <div class="hero-left">
+          <h1>Educating Street Children — Ending Poverty</h1>
+          <p class="lead">At Avabodh Foundation we bring learning where children live. Through small street-classes, school support, and community hubs like the Mind Map Café, we help children find a path out of poverty.</p>
+
+          <div class="hero-ctas">
+            <button class="btn btn-primary" id="donateBtn">Donate Now</button>
+            <a class="btn btn-outline" href="#contact">Become a Volunteer</a>
+          </div>
+
+          <div class="hero-stats" aria-hidden="true">
+            <div class="stat"><div class="val">500+</div><div class="lbl">Children reached</div></div>
+            <div class="stat"><div class="val">80+</div><div class="lbl">Admitted to school</div></div>
+            <div class="stat"><div class="val">10</div><div class="lbl">Documentaries</div></div>
+          </div>
+
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <!-- replace src with your hero image -->
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1600&auto=format&fit=crop" alt="Volunteers teaching children outdoors">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:700">Mind Map Café — New Initiative</div>
+              <div style="font-size:13px;color:var(--muted)">Supporting mentally challenged members through activities and employment.</div>
+            </div>
+            <div>
+              <button class="play-btn" id="watchHero">
+                ▶ Watch clip <span> </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">About Avabodh Foundation</h2>
+        <p class="lead">We teach children in the places they live — street corners, markets, and community spaces. Our goal is to remove barriers that keep children out of school. We provide short lessons, assist families with enrollment, and follow-up support. We also create safe community spaces like the Mind Map Café for people with mental challenges.</p>
+
+        <div style="margin-top:22px;display:flex;gap:18px;flex-wrap:wrap">
+          <div class="card" style="flex:1;min-width:220px">
+            <div style="padding:14px">
+              <div style="font-weight:700">Mission</div>
+              <p class="muted" style="margin-top:8px">Provide basic education and pathways to formal schooling for street children across our community.</p>
+            </div>
+          </div>
+          <div class="card" style="flex:1;min-width:220px">
+            <div style="padding:14px">
+              <div style="font-weight:700">Vision</div>
+              <p class="muted" style="margin-top:8px">A world where every child has access to education and a chance to end the cycle of poverty.</p>
+            </div>
+          </div>
+          <div class="card" style="flex:1;min-width:220px">
+            <div style="padding:14px">
+              <div style="font-weight:700">Values</div>
+              <p class="muted" style="margin-top:8px">Compassion · Respect · Inclusion · Dignity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR WORK -->
+    <section id="work" style="background:transparent">
+      <div class="wrap">
+        <h2 class="section-title">Our Work</h2>
+        <p class="lead">Practical programs that create long-term impact.</p>
+
+        <div class="grid-3" role="list">
+          <article class="card" role="listitem">
+            <img class="img" src="https://images.unsplash.com/photo-1549488344-6a9b8f5b6a8a?q=80&w=1200&auto=format&fit=crop" alt="Street education">
+            <div class="body">
+              <h4>Street Education</h4>
+              <p>Short lessons on literacy, numeracy, hygiene and life skills delivered where children are.</p>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="img" src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1200&auto=format&fit=crop" alt="School admissions">
+            <div class="body">
+              <h4>School Admissions</h4>
+              <p>We help with paperwork, enrollment, and follow-ups so children can attend formal schools.</p>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <img class="img" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop" alt="Mind Map Café">
+            <div class="body">
+              <h4>Mind Map Café</h4>
+              <p>A community hub that supports mentally challenged individuals through activities, skills training and supported roles.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- GALLERY -->
+    <section id="gallery" style="background:#fff; overflow:hidden;">
+    <div class="wrap">
+        <h2 class="section-title">Gallery</h2>
+        <p class="lead">Every moment of learning and love captured through our journey.</p>
+
+        <div class="moving-gallery">
+        <div class="gallery-track">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1000&auto=format&fit=crop" alt="Street Education"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop" alt="Children Learning"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1549488344-6a9b8f5b6a8a?q=80&w=1000&auto=format&fit=crop" alt="Volunteers Teaching"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=format&fit=crop" alt="Community Event"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1000&auto=format&fit=crop" alt="Mind Map Café"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=1000&auto=format&fit=crop" alt="Hope & Smiles"></div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" style="background:linear-gradient(180deg,#fff,#fef9f5);padding:60px 0;">
+    <div class="wrap">
+        <h2 class="section-title">Get Involved</h2>
+        <p class="lead">Whether you wish to volunteer, collaborate, or contribute — we'd love to hear from you.</p>
+
+        <div class="contact-grid" style="margin-top:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;">
+        
+        <!-- Left: Contact Info -->
+        <div class="contact-card" style="background:white;padding:28px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+            <h3 style="margin-bottom:12px;color:#222;">Contact Details</h3>
+            <p class="muted" style="margin-bottom:14px;">Email: <a href="mailto:info@avabodh.org">info@avabodh.org</a><br>
+            Phone: +91 98765 43210</p>
+
+            <div style="margin-top:18px;">
+            <h4 style="margin-bottom:8px;color:#222;">Donate</h4>
+            <p class="muted" style="margin-bottom:12px;">Your support helps us educate children and bring hope to families in need.</p>
+            <a class="btn btn-primary" id="donate" href="#donate">Donate Now</a>
+            </div>
+
+            <div style="margin-top:24px;">
+            <h4 style="margin-bottom:6px;color:#222;">Address</h4>
+            <p class="muted">City, State — India</p>
+            </div>
+        </div>
+
+        <!-- Right: Form -->
+        <form id="contactForm" class="contact-card" aria-label="Contact form" action="https://formspree.io/f/mldadoeq" method="post" style="background:white;padding:28px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+            <div class="form-group" style="margin-bottom:16px;">
+            <label for="name" class="muted" style="font-weight:600;">Your Name</label>
+            <input id="name" name="Name" type="text" placeholder="Full name" required style="width:100%;padding:10px 14px;margin-top:6px;border:1px solid #ddd;border-radius:8px;outline:none;transition:0.3s;">
+            </div>
+            <div class="form-group" style="margin-bottom:16px;">
+            <label for="email" class="muted" style="font-weight:600;">Email</label>
+            <input id="email" name="Email" type="email" placeholder="you@example.com" required style="width:100%;padding:10px 14px;margin-top:6px;border:1px solid #ddd;border-radius:8px;outline:none;transition:0.3s;">
+            </div>
+            <div class="form-group" style="margin-bottom:16px;">
+            <label for="msg" class="muted" style="font-weight:600;">Message</label>
+            <textarea id="msg" name="Message" rows="5" placeholder="How can we help?" required style="width:100%;padding:10px 14px;margin-top:6px;border:1px solid #ddd;border-radius:8px;resize:none;outline:none;transition:0.3s;"></textarea>
+            </div>
+
+            <button type="submit" class="btn-send" style="background:#ff7e36;color:white;font-weight:600;padding:10px 22px;border:none;border-radius:8px;cursor:pointer;transition:0.3s;">Send Message</button>
+        </form>
+        </div>
+    </div>
+    </section>
+    </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap">
+        <div style="font-weight:700">Avabodh Foundation</div>
+        <div style="color:var(--muted)">© <span id="yr"></span> — Building futures through education</div>
+      </div>
+
+      <div style="margin-top:12px;color:var(--muted)">Follow: 
+        <a href="https://www.instagram.com/avabodh_foundation/" target="_blank" rel="noopener">Instagram</a> ·
+        <a href="https://www.linkedin.com/company/avabodh-foundationn/posts/?feedView=all" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <link src="script.js" rel="script">
+</body>
+</html>
